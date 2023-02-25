@@ -1,0 +1,11 @@
+Link de Donwload do Git: https://git-scm.com/downloads
+
+Comandos Básicos Git
+
+git init	- Inicia repositório
+
+git add		- Adiciona arquivos
+
+git status	- Verifica o status atual do arquivo, se algo foi adicionado ou removido
+
+git commit	- Cria um commit 
