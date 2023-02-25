@@ -1,2 +1,2 @@
 # DIO-Java-BancoPan
-minhas aulas, exercícios e projetos do Bootcamp JavaBancoPan
+Minhas aulas, exercícios e projetos do Bootcamp JavaBancoPan
