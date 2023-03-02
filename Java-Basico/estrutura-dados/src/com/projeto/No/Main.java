@@ -11,16 +11,17 @@ public class Main {
          */
 
 
-        No no1 = new No("Conteúdo no1");
+        // Dps que refatorar, basta declarar o tipo dela
+        No<String> no1 = new No<>("Conteúdo no1");
 
-        No no2 = new No("Conteúdo no2");
+        No<String> no2 = new No<>("Conteúdo no2");
         // Dei um nó, como settei o no2 como seguido dps do no1, se pedir o próximo o no2 vai aparecer
         no1.setProximoNo(no2); 
 
-        No no3 = new No("Conteúdo no3");
+        No<String> no3 = new No<>("Conteúdo no3");
         no2.setProximoNo(no3); // A mesma coisa com os outros
 
-        No no4 = new No("Conteúdo no4");
+        No<String> no4 = new No<>("Conteúdo no4");
     
         no3.setProximoNo(no4);
 
