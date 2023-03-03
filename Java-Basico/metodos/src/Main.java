@@ -19,6 +19,12 @@ public class Main {
 
         System.out.println("---------------------------------------");
 
-        
+        // Empréstimo
+        System.out.println("Exercício Empréstimo");
+        Emprestimo.calcular(1000, 2);
+        Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
+        Emprestimo.calcular(1000, Emprestimo.getTresParcelas());
+        Emprestimo.calcular(1000, 5);
+
     }
 }
