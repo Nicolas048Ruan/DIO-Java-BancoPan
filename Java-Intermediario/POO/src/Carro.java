@@ -13,7 +13,12 @@
 // Set - o set é usado para colocar um valor no atributo
 // Get - o get ele retorna o valor do set
 
-public class Carro {
+// Objeto - É a representação de um conceito/entidade do mundo real, que pode ser física 
+//          (bola, carro árvore etc.) ou conceitual (viagem, estoque, compra etc.)
+
+// Mensagem - É a solicitação que um método executa e retorna algum valor ou não retorna valor 
+
+public class Carro { // Classe
 
     String cor; // Atributo
     String modelo; // Atributo
