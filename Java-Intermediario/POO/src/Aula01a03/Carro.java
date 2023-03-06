@@ -1,3 +1,4 @@
+package Aula01a03;
 // Atributos - Caracteristicas do objeto a ser criado
 
 // Método - Que ações é possível realizar com a classe
@@ -17,6 +18,10 @@
 //          (bola, carro árvore etc.) ou conceitual (viagem, estoque, compra etc.)
 
 // Mensagem - É a solicitação que um método executa e retorna algum valor ou não retorna valor 
+
+
+// Herança - A herança é para criar subtipos, tipos mais especificos apartir da classe herdada
+//           (membros são atributos e métodos)
 
 public class Carro { // Classe
 
