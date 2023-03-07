@@ -5,10 +5,6 @@
 
 // Downcast - Quando vc coloca o objeto como uma sub-classe, mas herda ele como uma super classe
 
-// Polimorfismo - A mesma ação, sempre se comportando diferente
-
-// Sobrescrita - A mesma ação, podendo ou não se comportar diferente
-
 package Aula04.Ex2_P1;
 
 public class Funcionario {
