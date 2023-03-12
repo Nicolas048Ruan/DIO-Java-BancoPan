@@ -6,7 +6,7 @@ import java.util.Map.Entry;
 /*
  * O Map é um objeto q dentro desse objeto vc pode colocar múltiplos 
  * elementos (tanto objetos quanto variáveis primitivas), cada elemento dentro do Map tem 
- * chaves únicas e valores.
+ * chaves únicas (n pode repetir) e valores (pode repetir).
  * 
  * No Map o método add não existe, então vc passa o put
  */
