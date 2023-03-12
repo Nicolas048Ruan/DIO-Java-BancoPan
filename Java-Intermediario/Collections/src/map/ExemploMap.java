@@ -32,6 +32,7 @@ class ExemploMap {
 //      Map<String, Double> carrosPopulares2020 = Map.of("gol", 14.4, "uno", 15.6, "mobi", 16.1, "hb20", 14.5, "kwid", 15.6)
 
         System.out.println("Crie um dicionário que relacione os modelos e seus respectivos consumos: ");
+    //  Map  Key    Value
         Map<String, Double> carrosPopulares = new HashMap<String, Double>(){{ // HashMap deixa aleatório
 //          No Map o método add não existe, então vc passa o put e n pode ter keys iguais
             put("gol", 14.4); // Key: Marca do carro | Value: valor de consumo
