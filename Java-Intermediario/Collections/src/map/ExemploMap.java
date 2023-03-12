@@ -121,7 +121,7 @@ class ExemploMap {
         }};
         System.out.println(carrosPopulares1.toString());
 
-        System.out.println("Exiba o dicionário ordenado pelo modelo: "); // Ordem Alfabética
+        System.out.println("Exiba o dicis onário ordenado pelo modelo: "); // Ordem Alfabética
         Map<String, Double> carrosPopulares2 = new TreeMap<>(carrosPopulares1);
         System.out.println(carrosPopulares2.toString());
 
