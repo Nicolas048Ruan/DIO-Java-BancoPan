@@ -1,17 +1,27 @@
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
+import java.io.*;
+import javax.swing.*;
 
-// Imprimir um arquivo no console
+// Imprimir oq está dentro de um arquivo no console
 public class CheckedException {
     
-    public static void main(String[] args) throws IOException { // Se adicionou em um tem q adicionar em outro
+    public static void main(String[] args) { // Se adicionou em um tem q adicionar em outro
         String nomeArquivo = "romances-blake-crouch.txt";
-        ImprimirArquivo(nomeArquivo);
+
+        // Caso n queira adicionar um throws, é possível fazer um o try
+        try {
+            ImprimirArquivo(nomeArquivo);
+        } catch (FileNotFoundException e) { // Erro no nome do arquivo
+            // e.printStackTrace();
+            // Se n der certo a impressão, vai aparecer uma janela de aviso
+            JOptionPane.showMessageDialog(null,
+                "Revise o nome do arquivo que você vai imprimir! " + e.getCause());
+        } catch (IOException e) { // Pode ser vários erros pq muitos da class ImprimirArquivo() usam o IOException
+            JOptionPane.showMessageDialog(null,
+                "Ocorreu um erro inesperado! Entre em contato com o! " + e.getCause());
+            e.printStackTrace();
+        } finally {
+            System.out.println("Chegou no finally!");
+        }
 
         System.out.println("Apesar da exception ou não, o programa continua...");
     }
@@ -29,7 +39,7 @@ public class CheckedException {
 
         do {
             bw.write(line); // Vai imprimir cada linha no console
-            bw.newLine();
+            bw.newLine(); // Pula para uma nova linha
             line = br.readLine();
         } while (line != null); // Vai continuar até n ter nd para ser lido no documento
         bw.flush(); // Descarregar
