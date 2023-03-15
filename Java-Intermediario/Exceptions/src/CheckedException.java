@@ -17,7 +17,7 @@ public class CheckedException {
                 "Revise o nome do arquivo que você vai imprimir! " + e.getCause());
         } catch (IOException e) { // Pode ser vários erros pq muitos da class ImprimirArquivo() usam o IOException
             JOptionPane.showMessageDialog(null,
-                "Ocorreu um erro inesperado! Entre em contato com o! " + e.getCause());
+                "Ocorreu um erro inesperado! Entre em contato com o suporte! " + e.getCause());
             e.printStackTrace();
         } finally {
             System.out.println("Chegou no finally!");
