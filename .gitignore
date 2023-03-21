@@ -15,3 +15,6 @@ Java-Intermediario/POO/.vscode/settings.json
 Java-Intermediario/Exceptions/.vscode/settings.json
 Java-Intermediario/Maven/project-parent/controller/target/classes/one/digital/innovation/App.class
 Java-Intermediario/Maven/quick-start-maven/target/classes/one/digitalinnovation/App.class
+Java-Intermediario/JUnit/junit/src/test/java/com/aulas/AssumptionsTest.java
+Java-Intermediario/JUnit/junit/src/test/java/com/aulas/AssumptionsTest.java
+.gitignore

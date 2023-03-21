@@ -10,8 +10,10 @@ public class AssumptionsTest {
     public void validarSomenteNoUsuarioWillyan() {
 
         // Só vou executar algo se o usuário for willyan
-        Assumptions.assumeTrue("Willyan".equals(System.getenv("USER")));
+        // Assumptions.assumeTrue("Willyan".equals(System.getenv("USER")));
 
+        // Só vou executar algo se o usuário não for root
+        Assumptions.assumeFalse("root".equals(System.getenv("USER")));
         Assertions.assertEquals(10, 5 + 5);
     }
 }
