@@ -3,26 +3,26 @@ package com.aulas;
 import java.util.logging.Logger;
 
 public class BancoDados {
-    
+
     private static final Logger LOGGER = Logger.getLogger(BancoDados.class.getName());
 
     public static void iniciarConexao() {
-        LOGGER.info("Iniciou Conexao"); // Para aparecer a mensagem na tela
+        //fez algo
+        LOGGER.info("Iniciou conexao");
     }
 
     public static void finalizarConexao() {
-        LOGGER.info("Finalizou Conexao");
+        //fez algo
+        LOGGER.info("finalizou conexao");
     }
 
     public static void insereDados(Pessoa pessoa) {
-        // Insere pessoa no DB
-        LOGGER.info("Inseriu Dados");
-
+        //insere pessoa no DB
+        LOGGER.info("inseriu dados");
     }
 
     public static void removeDados(Pessoa pessoa) {
-        // Insere pessoa no DB
-        LOGGER.info("Removeu Dados");
-
+        //remove pessoa no DB
+        LOGGER.info("removeu dados");
     }
 }
