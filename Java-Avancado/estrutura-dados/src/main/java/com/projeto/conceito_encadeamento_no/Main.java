@@ -10,16 +10,16 @@ public class Main {
          * por outro objeto
          */
         
-        No no1 = new No("Conteúdo no1");
+        No<String> no1 = new No<>("Conteúdo no1");
 
-        No no2 = new No("Conteúdo no2");
+        No<String> no2 = new No<>("Conteúdo no2");
         // Dei um nó, como settei o no2 como seguido dps do no1, se pedir o próximo o no2 vai aparecer
         no1.setProximoNo(no2); // Referência do no1 aponta pro no2
 
-        No no3 = new No("Conteúdo no3");
+        No<String> no3 = new No<>("Conteúdo no3");
         no2.setProximoNo(no3); // no2 aponta pro no3
 
-        No no4 = new No("Conteúdo no4");
+        No<String> no4 = new No<>("Conteúdo no4");
         no3.setProximoNo(no4); // no3 aponta pro no4
 
         // Ex de como vai ser os setters
