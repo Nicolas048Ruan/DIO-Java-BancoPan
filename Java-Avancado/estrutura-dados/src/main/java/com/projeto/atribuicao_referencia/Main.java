@@ -1,4 +1,4 @@
-package com.projeto.atribuicaoreferencia;
+package com.projeto.atribuicao_referencia;
 
 public class Main {
     
