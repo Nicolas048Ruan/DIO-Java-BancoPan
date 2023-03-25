@@ -25,5 +25,23 @@ public class Pilha {
 
     public boolean isEmpty() { return refNoEntradaPilha == null ? true : false; }
 
-    
+    @Override
+    public String toString() {
+        String stringRetorno = "-----------------------\n";
+        stringRetorno += "       Pilha\n";
+        stringRetorno += "-----------------------\n";
+
+        No noAuxiliar = refNoEntradaPilha; // Recebe o No do topo
+
+        while(true) {
+            if (noAuxiliar != null) {
+                stringRetorno += "[No{dado= " + noAuxiliar.getDado() + "}]\n";
+                noAuxiliar = noAuxiliar.getRefNo(); // Passa a ser o próximo No
+            }else {
+                break;
+            }
+        }
+        stringRetorno += "=======================\n";
+        return stringRetorno;
+    }
 }
