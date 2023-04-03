@@ -1,4 +1,4 @@
-package com.projeto.atribuicao_referencia;
+package com.aulas;
 
 import java.beans.ConstructorProperties;
 import java.lang.reflect.Constructor;

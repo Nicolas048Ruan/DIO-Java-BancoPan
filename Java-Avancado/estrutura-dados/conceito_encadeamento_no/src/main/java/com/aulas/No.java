@@ -1,4 +1,4 @@
-package com.projeto.conceito_encadeamento_no;
+package com.aulas;
 
 // Esse <T> é para a Refatoração, usando a refatoração não é necessário declarar o tipo
 // da class se ela é int String entre outros

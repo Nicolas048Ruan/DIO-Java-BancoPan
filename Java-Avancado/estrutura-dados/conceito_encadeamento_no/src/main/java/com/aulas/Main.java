@@ -1,4 +1,4 @@
-package com.projeto.conceito_encadeamento_no;
+package com.aulas;
 
 public class Main {
     
